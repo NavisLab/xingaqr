@@ -1,0 +1,60 @@
+
+name: Auto build vuepress site and deploy
+
+on:
+  push:
+    branches:    
+      - master # 只有master分支上有push才执行
+      - dev
+
+env:
+  TZ: Asia/Shanghai
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+
+jobs:
+  build_deploy:
+    runs-on: ubuntu-18.04
+    steps:
+    - name: Checkout # 获取源代码
+      uses: actions/checkout@v2
+      with:
+        persist-credentials: false 
+        fetch-depth: 0
+    
+    - uses: actions/setup-node@v2-beta # 安装nodejs
+      with:
+        node-version: '12'
+    
+    - uses: pnpm/action-setup@v1.2.0 # 安装pnpm
+      with:
+        version: 5.4.12
+    
+    - uses: actions/cache@v2
+      with:
+        path: ~/.pnpm-store
+        key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+        restore-keys: |
+          ${{ runner.os }}-pnpm-
+
+    - name: Install dependences and build
+      run: |
+        npm config set registry https://registry.npm.taobao.org
+        pnpm i 
+        pnpm build 
+    
+    # - name: Deploy to cloudbase  
+    #   run: |
+    #     pnpm install -g @cloudbase/cli
+    #     tcb login --apiKeyId ${{ secrets.TCB_ID }} --apiKey ${{ secrets.TCB_KEY }}
+    #     tcb hosting:delete -d assets -e ${{ secrets.ENV_ID }}
+    #     tcb hosting:deploy dist -e ${{ secrets.ENV_ID }}
+    
+    - name: Deploy to gh-pages
+      uses: JamesIves/github-pages-deploy-action@3.5.9
+      with:
+        GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: dist
+        CLEAN: true
+        CLEAN_EXCLUDE: '["CNAME"]'
+        SINGLE_COMMIT: true #不保留历史commit
