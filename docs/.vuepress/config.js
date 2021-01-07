@@ -1,5 +1,5 @@
 module.exports = {
-  title: "xingaqr的个人博客",
+  title: "xingaqr 的个人博客",
   description: '正 在 光 速 加 载 中 ……',
   dest: 'dist',
   configureWebpack: (config) => {
@@ -82,7 +82,7 @@ module.exports = {
     searchMaxSuggestions: 10,
     lastUpdated: 'Last Updated',
     author: 'xingaqr',
-    authorAvatar: '/avatar.svg',
+    authorAvatar: '/avatar.png',
     record: '',
     startYear: '2019',
     
