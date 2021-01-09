@@ -1,12 +1,13 @@
 module.exports = {
   '/docs/rime/': [
     '',
+    'yamlGrammar',
+    'yamlInRime',
     'Configuration',
     'dict.yaml',
     'schema.yaml',
     'SpellingAlgebra',
     'RimeWithSchemata',
-    'yamlGrammer',
     'trime.yaml',
     'CustomizationGuide',
     'wb2key',

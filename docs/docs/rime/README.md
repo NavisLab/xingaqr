@@ -24,14 +24,16 @@ date: 2021-01-04 21:38:54
 ## 学习路线
 
 - 学习 yaml 语法: [YAML 入门教程](https://www.runoob.com/w3cnote/yaml-intro.html)
-- 学习 Rime 配置文件新增语法: [Rime 配置文件](./Configuration.md)
+- 学习 Rime 配置文件语法: 
+  - [yaml 基本语法](./yamlGrammer.md)
+  - [配置文件中的一些 yaml 语法](./yamlInRime.md)
+  - [Rime 配置文件](./Configuration.md)
 - 定制方案
   - [dict.yaml 详解](./dict.yaml.md)
   - [schema.yaml 详解](./schema.yaml.md)
   - [拼写运算详解](./SpellingAlgebra.md)
   - [Rime 输入方案设计书](./RimeWithSchemata.md)
 - 定制同文主题: 
-  - [配置文件中的一些 yaml 语法](./yamlGrammer.md)
   - [trime.yaml 详解](./trime.yaml.md)
 - 实例
   - [Rime 定制指南](./CustomizationGuide.md)

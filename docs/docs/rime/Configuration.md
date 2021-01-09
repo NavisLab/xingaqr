@@ -13,13 +13,11 @@ Rime 配置文件，用于设置输入法引擎、输入法客户端的运行参
 
 ## 文件格式
 
-采用 UTF-8 编码的 [YAML][] 文本。
-
-[yaml]: http://yaml.org/
+采用 UTF-8 编码的 [YAML](http://yaml.org/) 文本。
 
 ## 语法
 
-在 [YAML][] 语法的基础上，增设以下编译指令：
+在 [YAML语法](./yamlGrammar.md) 的基础上，增设以下编译指令：
 
 ### 包含
 
