@@ -1,5 +1,5 @@
 ---
-title: Rime 输入方案设计书
+title: 输入方案设计书
 date: 2013-05-04
 author: 佛振 <chen.sst@gmail.com>
 ---

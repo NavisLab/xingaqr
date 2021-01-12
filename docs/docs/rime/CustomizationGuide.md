@@ -372,7 +372,7 @@ patch:
 
 也可以参照这张比较直观的图：
 
-![](https://cdn.jsdelivr.net/gh/xingaqr/img/img/21215838.png)
+![](./img/21215838.png)
 
 另，此处有现成的配色方案工具供用家调配：
 
@@ -588,7 +588,7 @@ patch:
 以下配置方法已过时，新的 emoji 用法见 <https://github.com/rime/rime-emoji>
 
 ~~参考 <https://gist.github.com/2309739> 把 `emoji` 加入输入方案选单；~~  
-~~切换到 `emoji` 输入方案，即可通过拼音代码输入表情符号。[查看符号表](https://cdn.jsdelivr.net/gh/xingaqr/img/img/21222121.png)~~  
+~~切换到 `emoji` 输入方案，即可通过拼音代码输入表情符号。[查看符号表](./img/21216121.png)~~  
 ~~输入 `all` 可以列出全部符号，符号后面的括弧里标记其拼音代码。~~  
 ~~若要直接在【朙月拼音】里输入表情符号，请按此文设定：~~  
 ~~<http://gist.github.com/3705586>~~

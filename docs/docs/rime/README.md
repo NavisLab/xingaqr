@@ -21,23 +21,12 @@ date: 2021-01-04 21:38:54
 - `<主题id>.trime.yaml`: 同文 (trime) **主题**文件。
 - `user.yaml`: 用户**状态信息**。用来保存当前所使用的*方案id*，以及各种*开关的状态*。
 
-## 学习路线
+## 一些资料
 
-- 学习 yaml 语法: [YAML 入门教程](https://www.runoob.com/w3cnote/yaml-intro.html)
-- 学习 Rime 配置文件语法: 
-  - [yaml 基本语法](./yamlGrammer.md)
-  - [配置文件中的一些 yaml 语法](./yamlInRime.md)
-  - [Rime 配置文件](./Configuration.md)
-- 定制方案
-  - [dict.yaml 详解](./dict.yaml.md)
-  - [schema.yaml 详解](./schema.yaml.md)
-  - [拼写运算详解](./SpellingAlgebra.md)
-  - [Rime 输入方案设计书](./RimeWithSchemata.md)
-- 定制同文主题: 
-  - [trime.yaml 详解](./trime.yaml.md)
-- 实例
-  - [Rime 定制指南](./CustomizationGuide.md)
-  - [五笔双键配置案例详解](./wb2key.md)
-  - [佛振教你写 Rime 输入方案之辅助码的作法](https://tieba.baidu.com/p/2094178562?see_lz=1)
-- 其他
-  - [yaml 文件开头注释是什么意思？](./yamlComment.md)
+- [Rime wiki](https://github.com/rime/home/wiki/)
+- [Rime 官网](https://rime.im/)
+- [Rime 贴吧](https://tieba.baidu.com/f?kw=rime&ie=utf-8)
+- [TRime wiki](https://github.com/osfans/trime/wiki/)
+- [东风破](https://github.com/rime/plum)
+- [致第一次安装 RIME 的你](https://tieba.baidu.com/p/3288634121?pn=1)
+- [佛振教你写 Rime 输入方案之辅助码的作法](https://tieba.baidu.com/p/2094178562?pn=1)

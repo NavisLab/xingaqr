@@ -87,7 +87,7 @@ patch:
 
 ### 2.字体
 
-![字体分布图](https://cdn.jsdelivr.net/gh/xingaqr/img/img/21220333.png#zoom)
+![字体分布图](./img/21220333.png#zoom)
 
 - `text_font`: 编码字体
 - `label_font`: 悬浮窗候选项序号字体
@@ -159,7 +159,7 @@ patch:
    ```
 
 效果图：  
-![更换字体效果图](https://cdn.jsdelivr.net/gh/xingaqr/img/img/21220428.png#zoom)
+![更换字体效果图](./img/21220428.png#zoom)
 
 #### 示例：局部尺寸微调
 
@@ -271,15 +271,15 @@ patch:
       - { label: ' %s. ', candidate: '%s ' }
   ```
 
-  ![横排效果](https://cdn.jsdelivr.net/gh/xingaqr/img/img/21220500.png)
+  ![横排效果](./img/21220500.png)
 
 - 2、竖排  
   把上面补丁的`sticky_lines`改成`5`，水平模式`horizontal`改成`false`。  
-  ![竖排效果](https://cdn.jsdelivr.net/gh/xingaqr/img/img/21220518.png)
+  ![竖排效果](./img/21220518.png)
 
 - 3、横竖混排  
   只需要把上面补丁的`sticky_lines`改成`1`即可。  
-  ![混排效果](https://cdn.jsdelivr.net/gh/xingaqr/img/img/21220534.png)
+  ![混排效果](./img/21220534.png)
 
 ※ 以上示例中去掉了悬浮窗的`composition`组件，因此需要开启嵌入模式才能在文本框中显示编码。另外，开启悬浮窗后，也可以把底下多余的候选栏关掉（参考附录中的示例）。
 
@@ -411,7 +411,7 @@ patch:
 ```
 
 这是一个用色最少的配色方案。效果是这样：  
-![简单配色](https://cdn.jsdelivr.net/gh/xingaqr/img/img/21220615.png#zoom)
+![简单配色](./img/21220615.png#zoom)
 
 ※ 部署完成后，需要从配色菜单中选取刚才添加的配色方案「xxx 极简」，才能看到效果。
 
@@ -429,7 +429,7 @@ patch:
 ```
 
 好像变得更难看了 😜：  
-![改进效果](https://cdn.jsdelivr.net/gh/xingaqr/img/img/21220654.png#zoom)
+![改进效果](./img/21220654.png#zoom)
 
 再加个背景图看看：
 
@@ -446,7 +446,7 @@ patch:
 ```
 
 最后变成这样：  
-![改进效果](https://cdn.jsdelivr.net/gh/xingaqr/img/img/21220713.png#zoom)
+![改进效果](./img/21220713.png#zoom)
 
 ……
 在每个按键上加图片背景会怎样？您若感兴趣可以试试。
@@ -553,7 +553,7 @@ patch:
 ```
 
 好了，看看效果：  
-![数字键颜色分组](https://cdn.jsdelivr.net/gh/xingaqr/img/img/21220741.png#zoom)
+![数字键颜色分组](./img/21220741.png#zoom)
 
 ※ 自定义的分组标签可以在当前主题的所有配色方案中使用。只需要在相应的配色方案中给`k_n_b`和`h_k_n_b`设定颜色值即可。这样每个配色方案中的数字键都可以独立设置颜色，自由度更高。（若某个配色方案中的`k_n_b`省略不写，则数字键的背景色会默认使用普通按键背景色，不用担心会出错。）
 
@@ -867,7 +867,7 @@ luna_pinyin:
 对于使用`script_translator`的拼音类输入方案，如果在打错词后，马上按退格键删除已经上屏的错词，可以使错词不被记录到用户词典中。但是如果隔的时间太长，或者使用的是`table_translator`形码方案，那就没办法这样删词了。这时候就需要定制键盘来辅助我们进行删词。
 
 以明月拼音为例，键盘示意图：  
-![添加删词功能](https://cdn.jsdelivr.net/gh/xingaqr/img/img/21221006.png#zoom)
+![添加删词功能](./img/21221006.png#zoom)
 
 ※ 由于用到了`has_menu`条件，键盘右上角的左右方向键和删词键只在正常打字的过程中出现。处于英文状态或不打字时仍然是数字键 8、9、0。
 
@@ -957,7 +957,7 @@ patch:
 ```
 
 副键盘就这样做出来了。效果图：  
-![添加附属键盘](https://cdn.jsdelivr.net/gh/xingaqr/img/img/21221047.png#zoom)
+![添加附属键盘](./img/21221047.png#zoom)
 
 ⚠ 如果是新建主键盘，则可以省略步骤 2、3、4，因为同文可以根据键盘 ID 自动调用键盘。
 

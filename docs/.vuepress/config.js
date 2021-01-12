@@ -72,10 +72,11 @@ module.exports = {
     valineConfig: {
       appId: 'B1miWO1GBlxQgo1OG1sQd2Nh-MdYXbMMI',
       appKey: 'vxqL8ySWxQhn2qXI5EkeSaLy',
-      avatar: '',
+      avatar: 'mp',
       placeholder: '填写邮箱可以收到回复提醒哦...',
       visitor: true,
       enableQQ: true,
+      requiredFields: ['nick','mail'],
     },
     logo: '/logo.png',
     search: true,

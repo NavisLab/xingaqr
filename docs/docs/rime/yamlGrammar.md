@@ -5,7 +5,7 @@ date: 2021-01-09 23:39:27
 
 Rime 使用 [YAML](http://yaml.org/) 作为配置文件
 
-- 后缀为`.yaml`或`.yml`，在rime里推荐使用`.yaml`
+- 后缀为`.yaml`或`.yml`，在 Rime 里推荐使用`.yaml`
 - 大小写敏感
 - 使用**缩进**表示层级关系
 - 缩进不允许使用`tab`，只允许空格
