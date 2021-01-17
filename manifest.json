@@ -1,0 +1,15 @@
+{
+  "name": "xingaqr's blog",
+  "short_name": "xingaqr",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    }
+  ]
+}
