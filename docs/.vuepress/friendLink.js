@@ -23,4 +23,10 @@ module.exports = [
     title: 'Hackerchai IT blog',
     link: 'https://blog.hackerchai.com/',
   },
+  {
+    title: 'Ryan4Yin\'s Space',
+    link: 'https://ryan4yin.space/',
+    avatar: 'https://www.gravatar.com/avatar/2362ce7bdf2845a92240cc2f6609e001?s=240',
+    desc: '赞美快乐~',
+  },
 ]
